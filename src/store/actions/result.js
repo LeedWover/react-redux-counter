@@ -14,9 +14,9 @@ export const storeResult = (result) => {
     }
 };
 
-export const deleteResult = (id) => {
+export const deleteResult = (index) => {
     return {
         type: actionTypes.DELETE_RESULT,
-        resultElId: id
+        resultIndex: index
     };
 };
